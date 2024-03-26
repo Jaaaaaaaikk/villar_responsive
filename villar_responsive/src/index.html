@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>villar_responsive</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/feather-icons/dist/feather.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <style>
+    .footer-ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer-ul li i {
+        color: #a0aec0;
+    }
+    
+    </style>
+</head>
+<body style="font-family: 'arial'; overflow-x: hidden;">
+    <!--Nav-Bar-->
+    <nav class="p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="flex items-center pt-5">
+                <img src="../dist/images/HMRS.png" alt="Your Logo" class="h-10">
+                <span class="text-black text-4xl font-semibold mr-8">HMRS</span>
+            </div>
+            <div>
+                <ul class="hidden md:flex space-x-4 pt-5">
+                    <li><a href="#" class="text-gray-600 hover:text-gray-400">Home</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-400">Products</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-400">Pricing</a></li>
+                    <li><a href="#" class="text-gray-600 hover:text-gray-400">Resources</a></li>
+                </ul>
+            </div>
+            <!-- Login&Signup -->
+            <div class="hidden md:flex ml-auto space-x-4">
+                <button type="submit" class="inline-flex items-center mr-1 text-gray-600 font-medium text-xl pt-4 pr-7 pb-4 pl-7 bg-slate-50 rounded-md">
+                    Login
+                </button>
+                <button type="submit" type="submit" class="inline-flex items-center mr-1 text-white font-medium text-xl border border-1 pt-4 pr-7 pb-4 pl-7 border-slate-300 bg-green-600 rounded-md">
+                    Sign up
+                </button>
+            </div>
+            <div class="md:hidden">
+                <!-- Hamburger Menu Icon -->
+                <button id="menu-toggle" class="focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--contents-->
+        <section class="flex flex-col items-center justify-center mt-20">
+            <span class="mt-5 mx-8 block text-6xl font-semibold antialiased text-center">
+                Beautiful analytics to grow smarter
+            </span>
+            <span class="mt-5 px-20 text-gray-600 text-2xl text-center md:text-xl">
+                Powerful, self-serve product and growth analytics to help you convert, engage,<br>
+                and retain more users. trusted by over 4,000 startups.
+            </span>
+            <div class="flex justify-center flex-col md:flex-row mt-5">
+                <button type="submit" class="inline-flex items-center justify-center mr-1 text-gray-600 font-medium text-xl border border-1 pt-4 px-40 text-center pb-4 border-slate-300 bg-slate-50 rounded-2xl order-2 md:order-1 md:px-7 mt-5">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <polygon points="10 8 16 12 10 16 10 8" />
+                </svg> Demo
+                    </button>
+                <button type="submit" class="inline-flex items-center justify-center mr-1 text-white font-medium text-xl border border-1 pt-4 pb-4 px-40 text-center border-slate-300 bg-green-600 rounded-2xl order-1 md:order-2 md:px-7 mt-5">
+                    Sign up
+                </button>
+            </div>
+            
+            <div class="mt-20">
+                <div class="flex justify-center">
+                  <img src="../dist/images/tablet.png" alt="Tablet" class="w-full h-full sm:w-5/6 sm:w-5/6">
+                </div>
+              </div>
+        </section>
+        <section class="flex flex-col items-center justify-center mt-20">
+            <span class="mt-20 text-gray-600 text-2xl text-center sm:text-xl">
+                Join 4,000+ companies already growing
+            </span>
+            <!--icons-->
+            <div class="flex justify-center flex-col-2 sm:flex-col-2 md:flex-row mt-10 ml-20">
+                <div class="flex flex-col sm:flex-col-2 md:flex-row">
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Layers-icon.png" alt="layers-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Layers</span>
+                    </div>
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Sisyphus-Icon.png" alt="Sisyphus-Icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Sisyphus</span>
+                    </div>
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/circooles-icon.png" alt="circooles-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Circooles</span>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-col-2 md:flex-row">
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Catalog-icon.png" alt="Catalog-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Catalog</span>
+                    </div>
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Quotient-icon.png" alt="Quotient-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl"><b>Quotient</b></span>
+                    </div>
+                    <div class="md:hidden flex items-center mt-10">
+                        <img src="../dist/images/hourglass-icon.png" alt="hourglass-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl"><b>Hourglass</b></span>
+                    </div>
+                </div>
+            </div>
+            <section class="flex flex-col items-center justify-center mt-20">
+                <span class="block text-lg text-green-800 font-semibold text-center antialiased mt-48">Features</span>
+            <span class="mt-5 px-10 block text-5xl font-semibold antialiased mb-4 text-center">Analytics that feels like it's from the future</span>
+            <span class="mt-3 mx-5 px-28 text-gray-500 text-2xl text-center sm:text-xl">
+                Powerful, self-serve product and growth analytics to help you convert, engage,<br>
+                and retain more users. trusted by over 4,000 startups.
+            </span>
+            <!--Untitledui1-->
+            <div class="flex justify-center flex-col md:flex-row mt-20 text-left items-center px-10">
+                <div class="col-span-5">
+                    <img src="../dist/images/mail-icon.png" alt="mail-icon" class="w-20 h-20 mb-8">
+                <span class="block text-3xl text-black-800 font-semibold mb-3">Share team inboxes</span>
+                <p class="text-gray-500 text-lg mr-20">
+                    Whether you have a team of 2 or 200, 
+                    our shared team inboxes keep everyone on 
+                    the same page and in the loop.
+                </p>
+                <ul class="list-none mt-5">
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check1" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-lg">Leverage automation to move fast</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check2" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-lg">Always give customers a human chat to</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check3" class="w-10 h-10 mr-3">
+                        <span class="text-gray-500 text-lg">Automate customer support and close leads faster</span>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-span-7 mt-10">
+                    <img src="../dist/images/untitledui.png" alt="untitledui" class="w-full h-full rounded-sm shadow-xl">
+                </div>
+            </div>
+            <!--Untitledui2-->
+            <div class="flex justify-center flex-col md:flex-row mt-20 text-left items-center px-10">
+                <div class="col-span-7 order-2 md:order-1 mt-10">
+                    <img src="../dist/images/untitledui2.png" alt="untitledui2" class="w-full h-full rounded-sm shadow-xl">
+                </div>
+                <div class="col-span-5 order-1 md:order-2 ml-0 md:ml-20">
+                    <img src="../dist/images/electric-icon.png" alt="electric-icon" class="w-20 h-20 mb-8">
+                <span class="block text-3xl text-black-800 font-semibold mb-3">Deliver instant answers</span>
+                <p class="text-gray-500 text-lg">
+                    An all-in-one customer platform that helps you 
+                    balance everything your customers need to be happy.
+                </p>
+                <ul class="list-none mt-5">
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check1" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-lg">Keep your customers in the loop with live chat</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check2" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-lg">Embed help articles right on your website</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check3" class="w-10 h-10 mr-3">
+                        <span class="text-gray-500 text-lg">Customers never have to leave the page to find an answer</span>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <!--Untitledui3-->
+            <div class="flex justify-center flex-col md:flex-row mt-20 text-left items-center px-10">
+                <div class="col-span-5">
+                    <img src="../dist/images/bar-icon.png" alt="bar-icon" class="w-20 h-20 mb-8">
+                <span class="block text-3xl text-black-800 font-semibold mb-3">Manage your team with reports</span>
+                <p class="text-gray-500 text-lg mr-20">
+                    Measure what matters with Untitled's easy-to-use 
+                    reports. You can filter, export, and drilldown 
+                    on the data in a couple clicks.
+                </p>
+                <ul class="none mt-5">
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check1" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-lg">Filter, export, and drilldown on the data quickly</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check2" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-lg">Save, schedule, and automate reports to your inbox</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check3" class="w-10 h-10 mr-3">
+                        <span class="text-gray-500 text-lg">Connect the tools you already use with 100+ integrations</span>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-span-7 mt-10">
+                    <img src="../dist/images/untitledui3.png" alt="untitledui3" class="w-full h-full rounded-sm shadow-xl">
+                </div>
+            </div>
+            </section>
+            <!--Integrations Area-->
+            <span class="block text-lg text-green-800 font-semibold text-center antialiased mt-48">Integrations</span>
+            <span class="mt-5 block text-4xl font-semibold antialiased mb-4 text-center">Get more value from your tools</span>
+            <div class="flex items-center justify-center">
+                <span class="mt-3 mx-5 px-28 text-gray-500 text-2xl text-center sm:text-xl sm:px-20 sm:mx-20">
+                    Connect your tools, connect your teams. With over 200 
+                    apps already available in our directory, your team's 
+                    favourite tools are just a click away.
+                </span>
+            </div>
+            <!--all-icons-->
+            <div class="grid grid-cols-2 gap-x-10 gap-y-10 mt-20 sm:grid sm:grid-cols-8 sm:gap-x-10 mx-10">
+                <div><img class="w-20 h-20" src="../dist/images/notion.png" alt="notion"></div>
+                <div><img class="w-20 h-20" src="../dist/images/stack.png" alt="stack"></div>
+                <div><img class="w-20 h-20" src="../dist/images/google-drive.png" alt="google-drive"></div>
+                <div><img class="w-20 h-20" src="../dist/images/intercom.png" alt="intercom"></div>
+                <div><img class="w-20 h-20" src="../dist/images/jira.png" alt="jira"></div>
+                <div><img class="w-20 h-20" src="../dist/images/dropbox.png" alt="dropbox"></div>
+                <div><img class="w-20 h-20" src="../dist/images/stripe.png" alt="stripe"></div>
+                <div><img class="w-20 h-20" src="../dist/images/zapier.png" alt="zapier"></div>
+                <div><img class="w-20 h-20" src="../dist/images/figma.png" alt="figma"></div>
+                <div><img class="w-20 h-20" src="../dist/images/confluence.png" alt="confluence"></div>
+                <div><img class="w-20 h-20" src="../dist/images/mailchimp.png" alt="mailchimp"></div>
+                <div><img class="w-20 h-20" src="../dist/images/zendesk.png" alt="zendesk"></div>
+                <div><img class="w-20 h-20" src="../dist/images/g-calendar.png" alt="g-calendar"></div>
+                <div><img class="w-20 h-20" src="../dist/images/whatsapp.png" alt="whatsapp"></div>
+                <div><img class="w-20 h-20" src="../dist/images/discord.png" alt="discord"></div>
+                <div><img class="w-20 h-20" src="../dist/images/bitbucket.png" alt="bitbucket"></div>
+            </div>
+            <div class="flex justify-center flex-col sm:flex-row mt-10">
+                <button type="submit" class="inline-flex items-center justify-center mr-1 text-white font-medium text-xl border border-1 pt-4 pb-4 px-20  border-slate-300 bg-green-600 rounded-2xl sm:px-7">
+                    View all integrations
+                </button>
+            </div>
+            
+            <img src="../dist/images/electric-icon.png" alt="electric-icon" class="w-20 h-20 mt-40">
+            <span class="mt-5 block text-4xl font-semibold antialiased mb-4 text-center">Unleash the full power of data</span>
+            <div class="flex items-center justify-center">
+                <span class="mt-3 block text-gray-500 text-xl text-center px-28 sm:px-20 sm:mx-20">
+                    Everything you need to convert, engage, and retain more users.
+                </span>
+            </div>
+            <div class="grid grid-cols-3 gap-x-20 mt-20 px-12">
+                <div class="text-center flex flex-col">
+                    <span class="font-semibold text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-green-600 mb-3">
+                        40+
+                    </span>
+                    <span class="text-lg sm:text-lg md:text-xl">
+                      Integrations
+                    </span>
+                </div>
+              
+                <div class="text-center flex flex-col">
+                    <span class="font-semibold text-5xl sm:text-5xl md:text-6xl lg:text-6xl text-green-600 mb-3">
+                        600%
+                    </span>
+                    <span class="text-lg sm:text-lg md:text-xl">
+                        Return of investment
+                    </span>
+                </div>
+              
+                <div class="text-center flex flex-col">
+                    <span class="font-semibold text-4xl sm:text-5xl md:text-6xl lg:text-6xl text-green-600 mb-3">
+                        4k+
+                    </span>
+                    <span class="text-lg sm:text-lg md:text-xl">
+                        Global customers
+                    </span>
+                </div>
+            </div>
+            <div class="grid grid-cols-2 gap-x-20 mt-40 mx-10">
+                <div class="flex flex-col text-center sm:text-left">
+                    <span class="text-3xl text-green-800 font-semibold">
+                        Start your 30-day free trial
+                    </span>
+                    <span class="text-xl text-green-800">
+                        Join over 4,000+ startups already growing with Untitled.
+                    </span>
+                </div>
+                <div class="flex justify-center flex-col md:flex-row">
+                    <button type="submit" class="inline-flex items-center justify-center text-gray-600 font-medium text-xl border border-1 pt-4 pb-4 border-slate-300 bg-slate-50 rounded-2xl order-2 md:order-1 md:px-7 mb-5 md:mr-3">
+                        Learn more
+                    </button>
+                    <button type="submit" class="inline-flex items-center justify-center text-white font-medium text-xl border border-1 pt-4 pb-4 border-slate-300 bg-green-600 rounded-2xl order-1 md:order-2 md:px-7 mb-5">
+                        Get started
+                    </button>
+                    </div>
+            </div>
+            <span class="mt-40 px-5 mx-5 text-4xl font-medium antialiased text-center md:mx-20 md:text-6xl lg:mx-40">
+                Untitled has saved us thousands of hours of work and has unlock data insights we never thought possible.
+            </span>
+            <img src="../dist/images/korayokumuspic.png" alt="korayokumuspic" class="w-20 h-20 mt-10">
+            <span class="text-xl text-black mt-3">Koray Okumus</span>
+            <span class="text-xl text-gray-500 mt-3">UX Designer, Circooles</span>
+            <div class="flex justify-center flex-col-2 sm:flex-col-2 md:flex-row mt-10 ml-20">
+                <div class="flex flex-col sm:flex-col-2 md:flex-row">
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Layers-icon.png" alt="layers-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Layers</span>
+                    </div>
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Sisyphus-Icon.png" alt="Sisyphus-Icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Sisyphus</span>
+                    </div>
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/circooles-icon.png" alt="circooles-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Circooles</span>
+                    </div>
+                </div>
+                <div class="flex flex-col sm:flex-col-2 md:flex-row">
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Catalog-icon.png" alt="Catalog-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl mr-15 font-semibold mr-32">Catalog</span>
+                    </div>
+                    <div class="flex items-center mt-10">
+                        <img src="../dist/images/Quotient-icon.png" alt="Quotient-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl"><b>Quotient</b></span>
+                    </div>
+                    <div class="md:hidden flex items-center mt-10">
+                        <img src="../dist/images/hourglass-icon.png" alt="hourglass-icon" class="mr-3 w-10 h-10">
+                        <span class="text-3xl"><b>Hourglass</b></span>
+                    </div>
+                </div>
+            </div>
+            <!--Untitledui4-->
+            <div class="flex justify-center flex-col md:flex-row mt-20 text-left items-center px-10">
+                <div class="col-span-5">
+                    
+                <span class="block text-3xl text-left text-black-800 font-semibold mb-3 md:text-3xl md:pr-20 lg:text-6xl">Join 4,000+ startups growing with Untitled</span>
+                <ul class="none mt-10">
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check1" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-xl md:text-lg">30-day free trial</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check2" class="w-10 h-10 mb-3 mr-3">
+                        <span class="text-gray-500 text-xl md:text-lg">Personalized onboarding</span>
+                    </li>
+                    <li class="flex items-center">
+                        <img src="../dist/images/check-icon.png" alt="check3" class="w-10 h-10 mr-3">
+                        <span class="text-gray-500 text-xl md:text-lg">Access to all features</span>
+                    </li>
+                    <li class="flex justify-center flex-col md:flex-row mt-10">
+                        <button type="submit" class="inline-flex items-center justify-center text-gray-600 font-medium text-xl border border-1 pt-4 pb-4 border-slate-300 bg-slate-50 rounded-2xl order-2 md:order-1 md:px-7 mb-5 md:mr-3">
+                            Learn more
+                        </button>
+                        <button type="submit" class="inline-flex items-center justify-center text-white font-medium text-xl border border-1 pt-4 pb-4 border-slate-300 bg-green-600 rounded-2xl order-1 md:order-2 md:px-7 mb-5">
+                            Get started
+                        </button>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-span-7 mt-10">
+                    <img src="../dist/images/untitledui4.png" alt="untitledui4" class="w-full h-full rounded-sm shadow-xl">
+                </div>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-6 gap-5 bg-gray-800 text-white py-10 px-5">
+                <!-- HMRS -->
+                <div class="col-span-1 sm:col-span-1 lg:col-span-1 py-10 pl-20">
+                    <ul class="none">
+                        <li class="flex items-center">
+                            <img src="../dist/images/HMRS.png" alt="HMRS" class="mr-5 w-14 h-14">
+                            <span class="text-2xl text-slate-300 font-semibold">HMRS</span>
+                        </li>
+                        <li>
+                            <p class="mt-5 text-xl text-slate-300">
+                                design amazing digital experiences that create more happy in the world.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            
+                <!-- Product -->
+                <div class="col-span-1 sm:col-span-1 lg:col-span-1  py-10 pl-20">
+                    <span class="text-lg font-semibold text-slate-400">
+                        Product
+                    </span>
+                    <ul class="none space-y-4 mt-5">
+                        <li>Overview</li>
+                        <li>Features</li>
+                        <li>Solutions</li>
+                        <li>Tutorials</li>
+                        <li>Pricing</li>
+                        <li>Releases</li>
+                    </ul>
+                </div>
+            
+                <!-- Company -->
+                <div class="col-span-1 sm:col-span-1 lg:col-span-1 py-10 pl-20">
+                    <span class="text-lg font-semibold text-slate-400">
+                        Company
+                    </span>
+                    <ul class="none space-y-4 mt-5">
+                        <li>About us</li>
+                        <li>Careers</li>
+                        <li>Press</li>
+                        <li>News</li>
+                        <li>Media Kit</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            
+                <!-- Resources -->
+                <div class="col-span-1 sm:col-span-1 lg:col-span-1 py-10 pl-20">
+                    <span class="text-lg font-semibold text-slate-400">
+                        Resources
+                    </span>
+                    <ul class="none space-y-4 mt-5">
+                        <li>Blog</li>
+                        <li>Newsletter</li>
+                        <li>Events</li>
+                        <li>Help centre</li>
+                        <li>Tutorials</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+            
+                <!-- Social -->
+                <div class="col-span-1 sm:col-span-1 lg:col-span-1 py-10 pl-20">
+                    <span class="text-lg font-semibold text-slate-400">
+                        Social
+                    </span>
+                    <ul class="none space-y-4 mt-5">
+                        <li>Twitter</li>
+                        <li>Linkedln</li>
+                        <li>Facebook</li>
+                        <li>Github</li>
+                        <li>AngelList</li>
+                        <li>Dribble</li>
+                    </ul>
+                </div>
+            
+                <!-- Legal -->
+                <div class="col-span-1 sm:col-span-1 lg:col-span-1 py-10 pl-20">
+                    <span class="text-lg font-semibold text-slate-400">
+                        Legal
+                    </span>
+                    <ul class="none space-y-4 mt-5">
+                        <li>Terms</li>
+                        <li>Privacy</li>
+                        <li>Cookies</li>
+                        <li>Licenses</li>
+                        <li>Settings</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+        </section>
+        <footer class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  gap-5 py-10 sm:py-20 bg-gray-900">
+            <div class="flex flex-col justify-self-center sm:justify-self-center md:justify-self-center">
+                <span class="text-slate-400 text-2xl text-medium sm:text-2xl md:text-xl">
+                    &copy; 2077 Untitled UI. All rights reserved.
+                </span>
+            </div>
+            <div class="flex flex-col justify-self-center sm:justify-self-center sm: md:justify-self-center ">
+                <ul class="none footer-ul space-x-10">
+                    <li><i class="fab fa-twitter fa-2x"></i></li>
+                    <li><i class="fab fa-linkedin fa-2x"></i></li>
+                    <li><i class="fab fa-facebook fa-2x"></i></li>
+                    <li><i class="fab fa-github fa-2x"></i></li>
+                    <li><i class="fab fa-angellist fa-2x"></i></li>
+                    <li><i class="fab fa-dribbble fa-2x"></i></li>
+                </ul>
+            </div>
+        </footer>
+</body>
+</html>
+
+
+
